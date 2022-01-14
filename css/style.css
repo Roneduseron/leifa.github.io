@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-size: 0.8em;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    background: url(../medias/images/main.jpg);
+    background-size: cover;
+    background-position: center;
+    
+
+    width: 100vw;
+    height: 100vh;
+}
+/* Media Queries Responsive */
+
+@media screen and (max-width: 560px){
+    
+}
+@media screen and (min-width: 992px){
+    .teporary-bloc .hidden{
+        display: inline;
+    }
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.teporary-bloc .hidden{
+    display: none;
+}
+
+.teporary-bloc{
+    width: 100%;
+    height: 100%;
+
+    color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.teporary-bloc > *{
+    text-align: center;
+    max-width: calc(100% - 30px);
+}
+
+.teporary-bloc h1{
+
+    text-align: center;
+    padding: 15px 40px;
+    font-size: 2.8em;
+    line-height: 1.4;
+}
+
+.h1-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+    width: 100%;    
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.teporary-bloc h3{
+    font-weight: 300;
+    font-size: 1.8em;
+    opacity: 0.8;
+}
+
